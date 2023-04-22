@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Solar System Website</title>
+    <style>
+      /* Add some basic styling to the website */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #ccc;
+        padding: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      li a {
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      li a:hover {
+        background-color: #333;
+        color: #fff;
+      }
+
+      .slides {
+        position: relative;
+        height: 500px;
+        overflow: hidden;
+      }
+
+      .slides > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 2s ease-in-out;
+      }
+
+      .slides > div:first-child {
+        opacity: 1;
+        transition: none;
+      }
+
+      /* Add some basic styles to the slide content */
+      .slide-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Solar System Website</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Planets</a></li>
+        <li><a href="#">Asteroids</a></li>
+        <li><a href="#">Comets</a></li>
+      </ul>
+    </nav>
+    <div class="slides">
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2017/03/05/15/29/mercury-2115027_960_720.jpg" alt="Mercury">
+        <div class="slide-content">
+          <h2>Mercury</h2>
+          <p>Mercury is the smallest planet in the Solar System and the closest to the Sun. It has a diameter of 4,879 kilometers and a day that lasts 59 Earth days.</p>
+        </div>
+      </div>
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2017/07/25/03/43/venus-2539872_960_720.jpg" alt="Venus">
+        <div class="slide-content">
+          <h2>Venus</h2>
+          <p>Venus is the second planet from the Sun and is the hottest planet in the Solar System. It has a diameter of 12,104 kilometers and a day that lasts 243 Earth days.</p>
+        </div>
+      </div>
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2014/11/05/22/16/earth-519921
