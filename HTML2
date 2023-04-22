@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Solar System</title>
+  <style>
+    body {
+      background-color: #1C1E22;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      background-color: #0E8EBE;
+      color: #FFFFFF;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #1C1E22;
+      color: #FFFFFF;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 10px;
+    }
+    
+    nav a:hover {
+      background-color: #0E8EBE;
+      color: #FFFFFF;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    h1, h2 {
+      color: #0E8EBE;
+      text-align: center;
+    }
+    
+    p {
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    footer {
+      background-color: #0E8EBE;
+      color: #FFFFFF;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Solar System</h1>
+  </header>
+  
+  <nav>
+    <a href="#intro">Intro</a>
+    <a href="#planets">Planets</a>
+    <a href="#moons">Moons</a>
+    <a href="#sun">Sun</a>
+    <a href="#comets">Comets</a>
+    <a href="#sources">Sources</a>
+  </nav>
+  
+  <main>
+    <section id="intro">
+      <h2>Intro</h2>
+      <p>The solar system consists of the Sun and everything that orbits around it, including planets, moons, asteroids, comets, and other objects. The eight planets in the solar system, in order from the sun, are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.</p>
+      <img src="https://cdn.pixabay.com/photo/2015/08/14/19/49/solar-system-888950_960_720.jpg" alt="Solar System">
+    </section>
+    
+    <section id="planets">
+      <h2>Planets</h2>
+      <p>The planets in the solar system are divided into two main groups: the inner planets (Mercury, Venus, Earth, and Mars) and the outer planets (Jupiter, Saturn, Uranus, and Neptune). Each planet has unique characteristics, such as size, temperature, and atmosphere. Earth is the only planet in the solar system known to have liquid water on its surface.</p>
+      <img src="https://cdn.pixabay.com/photo/2016/06/07/10/46/saturn-1440726_960_720.jpg" alt="Saturn">
+    </section>
+    
+    <section id="moons">
+      <h2>Moons</h2>
+      <p>Many planets in the solar system have moons with descriptions and images of moons:</p>
+      <h3>Earth's Moon</h3>
+      <p>The Moon is Earth's only natural satellite and the fifth largest moon in the solar system. It has a rocky surface and is heavily cratered. The Moon's gravitational pull on Earth causes tides in the oceans.</p>
+      <img src="https://cdn.pixabay.com/photo/2016/05/01/22/14/moon-1367675_960_720.jpg" alt="Moon">
+      <h3>Jupiter's Moon - Europa</h3>
+      <p>Europa is one of Jupiter's largest moons and is believed to have a subsurface ocean of liquid water. It has a rocky surface covered in ice and is believed to have the potential to support life.</p>
+      <img src="https://cdn.pixabay.com/photo/2018/02/11/23/14/europa-3143568_960_720.jpg" alt="Europa">
+  
+      <h3>Saturn's Moon - Titan</h3>
+      <p>Titan is the largest moon of Saturn and the only moon known to have a dense atmosphere. Its atmosphere is primarily made up of nitrogen, with small amounts of methane and other gases. Titan has lakes and seas of liquid methane on its surface.</p>
+      <img src="https://cdn.pixabay.com/photo/2018/02/23/00/43/titan-3174089_960_720.jpg" alt="Titan">
+    </section>
+
+    <section id="sun">
+      <h2>Sun</h2>
+      <p>The Sun is a star and the center of the solar system. It is the most important source of energy for life on Earth, providing light and heat. The Sun is about 109 times larger than Earth and is mostly made up of hydrogen and helium.</p>
+      <img src="https://cdn.pixabay.com/photo/2018/09/20/15/29/solar-flare-3682538_960_720.jpg" alt="Sun">
+    </section>
+
+    <section id="comets">
+      <h2>Comets</h2>
+      <p>Comets are small, icy objects that orbit the Sun. They are made up of rock, dust, and frozen gases such as water, carbon dioxide, methane, and ammonia. When a comet gets close to the Sun, it heats up and forms a bright coma and sometimes a tail.</p>
+      <img src="https://cdn.pixabay.com/photo/2013/07/13/12/21/comet-158701_960_720.png" alt="Comet">
+    </section>
+
+    <section id="sources">
+      <h2>Sources</h2>
+    <ul>
+      <li><a href="https://solarsystem.nasa.gov/planets/overview/">NASA - Solar System Exploration: Planets</a></li>
+      <li><a href="https://solarsystem.nasa.gov/moons/overview/">NASA - Solar System Exploration: Moons</a></li>
+      <li><a href="https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/overview/">NASA - Solar System Exploration: Comets</a></li>
+      <li><a href="https://www.space.com/58-the-sun-formation-facts-and-characteristics.html">Space.com - The Sun: Formation, Facts and Characteristics</a></li>
+    </ul>
+    </section>
+    </main>
+  <footer>
+    <p>&copy; 2023 Solar System Website. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #ADD8E6;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  nav a:hover {
+    color: white;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  h1, h2, h3 {
+    color: #1E90FF;
+  }
+  
+  section {
+    margin-top: 2em;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #1E90FF;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  ul li {
+    margin-bottom: 0.5em;
+  }
+</style>
